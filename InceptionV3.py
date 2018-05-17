@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 from tensorflow.python.framework import tensor_shape
-
+from config import *
 class InceptionV3:
 
 	bottleneckTensor = None
